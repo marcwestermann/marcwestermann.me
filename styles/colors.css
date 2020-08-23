@@ -1,0 +1,13 @@
+/** Color settings for daytime **/
+
+/** Color variables **/
+:root {
+    --primary-color: #FFBC00;
+    --darkened-primary-color: #EDAA00; /** 7% darker **/
+    --background-color: #FFF;
+    --white-font: #FFF;
+    --grey-font: #525252;
+    --tinted-white-font: rgba(255, 255, 255, 0.8);
+    --black-font: #000;
+    --tinted-black-font: rgba(0, 0, 0, 0.8);
+}

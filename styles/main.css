@@ -1,0 +1,281 @@
+/** Standard items **/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: var(--black-font);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/** Overrides **/
+
+img {
+    vertical-align: middle;
+}
+
+.img-circle {
+    border-radius: 50%
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/** Custom items **/
+
+#landingpage-background {
+    min-height: 620px;
+    background: var(--primary-color);
+}
+
+#heroimage {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid var(--white-font);
+    margin-top: -100px; /* Half the height */
+    margin-left: -100px; /* Half the width */
+}
+
+/** Navigation-Bar Portfolio **/
+
+#nav-bar {
+    height: 72px;
+    background-color: var(--primary-color);
+}
+
+#nav-bar-container {
+    margin-top: 18px;
+}
+
+.nav-bar-content {
+    color: var(--white-font);
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#nav-bar-image {
+    width: 36px;
+    height: 36px;
+    border: 2px solid var(--white-font);
+}
+
+.nav-bar-text {
+    vertical-align: middle;
+    padding-left: 8px
+}
+
+/** Text-Formatting **/
+
+.dark-background-paragraph {
+    color: var(--tinted-white-font);
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.dark-background-paragraph > a {
+    display: inline-block;
+    position: relative;
+    color: var(--white-font);
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.dark-background-paragraph > a:hover {
+    text-decoration: none;
+    color: var(--white-font);
+    /*left: -6px;*/
+    /*right: -6px;*/
+    border-radius: 5px;
+
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 5px;
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 5px;
+
+    background-color: var(--darkened-primary-color);
+}
+
+.dark-background-paragraph > span > a {
+    display: inline-block;
+    position: relative;
+    color: var(--white-font);
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.dark-background-paragraph > span > a:hover {
+    text-decoration: none;
+    color: var(--white-font);
+    /*left: -6px;*/
+    /*right: -6px;*/
+    border-radius: 5px;
+
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 5px;
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 5px;
+
+    background-color: var(--darkened-primary-color);
+}
+
+.light-background-paragraph {
+    color: var(--tinted-black-font);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.light-background-paragraph:not(.light-background-button) > a {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.light-background-paragraph:not(.light-background-button) > a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.light-additional-text {
+    color: var(--tinted-black-font);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.light-additional-text > a {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.light-additional-text > a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/** Portfolio Items **/
+
+.item-headline {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.item-subheadline {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--grey-font);
+    margin-top: 4px;
+}
+
+#share_1 {
+    padding-left: 8px;
+    visibility: hidden;
+}
+
+#item_1:hover #share_1 {
+    visibility: visible;
+}
+
+#share_2 {
+    padding-left: 8px;
+    visibility: hidden;
+}
+
+#item_2:hover #share_2 {
+    visibility: visible;
+}
+
+#share_3 {
+    padding-left: 8px;
+    visibility: hidden;
+}
+
+#item_3:hover #share_3 {
+    visibility: visible;
+}
+
+/** Social Links **/
+
+.social-links {
+    width: 40px;
+    height: 40px;
+}
+
+.social-links:hover {
+    text-decoration: none;
+    color: var(--white-font);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: var(--darkened-primary-color);
+    cursor: pointer;
+}
+
+.dark-social-links {
+    width: 40px;
+    height: 40px;
+    opacity: 0.29;
+}
+
+.dark-social-links:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+/** Buttons **/
+
+.light-background-button {
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #ffbb00;
+    padding: 5px 10px 5px 10px;
+    border: solid var(--primary-color) 2px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.light-background-button:hover, .light-background-button:focus {
+    background: var(--primary-color);
+    text-decoration: none;
+    color: var(--white-font);
+}
+
+.light-background-button:focus {
+    outline: none;
+}
